@@ -74,7 +74,7 @@ def Tele(ccx):
 )
 
 	try:
-		ii=(response.json())
+		ii=(response.text)
 	except:
 		return 'error'
 	return ii
